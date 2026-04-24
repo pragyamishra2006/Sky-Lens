@@ -1,2 +1,14 @@
 # Sky-Lens
-Built a responsive full-stack Weather Application using Node.js, Express, and JavaScript, integrated with the OpenWeather API to deliver real-time weather data.
+Weather forecasting web app built with [your tech stack]
+
+## Features
+- Live weather updates
+- Location search
+- Forecast charts
+
+## Demo
+[Your live URL here]
+
+## Tech Stack
+- HTML/CSS/JavaScript
+- Weather API
