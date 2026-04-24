@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    /* 1. Direct link to the image file */
+    background: url("https://png.pngtree.com/background/20230427/original/pngtree-clouds-above-a-bright-sky-picture-image_2494866.jpg") no-repeat center center fixed;
+    
+    /* 2. Ensures the image fills the screen without stretching */
+    background-size: cover;
+    
+    /* 3. Ensures the body is at least the height of the screen */
+    min-height: 100vh;
+}
+
+.container {
+    /* 4. Added transparency (0.8) so the background peeks through slightly */
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    position: relative; /* Keeps it above the rain layer if needed */
+    z-index: 10;
+}
+
+/* Rest of your button and weather-card styles remain the same */
+button {
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* 🌧 Rain Styles */
+.rain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.rain span {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    animation: rainFall linear infinite;
+}
+
+@keyframes rainFall {
+    0% { transform: translateY(-100px); opacity: 0.8; }
+    100% { transform: translateY(100vh); opacity: 0; }
+}
