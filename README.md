@@ -1,5 +1,5 @@
 # Sky-Lens
-Weather forecasting web app built with [your tech stack]
+Weather forecasting web app built with my api.
 
 ## Features
 - Live weather updates
