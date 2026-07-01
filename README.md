@@ -5,7 +5,7 @@ Weather forecasting web app built with my api.
 - Live weather updates
 - Location search
 - Forecast charts
-
+  
 ## Demo
 [Your live URL here]
 
