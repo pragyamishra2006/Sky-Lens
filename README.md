@@ -1,14 +1,14 @@
-# Sky-Lens
+# Sky-Lens:
 Weather forecasting web app built with my api.
 
-## Features
+## Features:
 - Live weather updates
 - Location search
 - Forecast charts
   
-## Demo
+## Demo:
 [Your live URL here]
 
-## Tech Stack
+## Tech Stack:
 - HTML/CSS/JavaScript
 - Weather API
