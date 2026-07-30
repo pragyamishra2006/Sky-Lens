@@ -12,3 +12,6 @@ Weather forecasting web app built with my api.
 ## Tech Stack:
 - HTML/CSS/JavaScript
 - Weather API
+
+Authorized by:
+Pragya Mishra
